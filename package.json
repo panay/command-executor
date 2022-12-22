@@ -1,0 +1,19 @@
+{
+  "name": "command-execuror",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergey Panay",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.1.4",
+    "install": "^0.13.0",
+    "npm": "^9.2.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3"
+  }
+}
