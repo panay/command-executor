@@ -5,12 +5,12 @@ export class ConsoleLogger implements IStreamLogger {
 
   private constructor() {}
 
-  public static getInstance() {
+  public static getInstance(): ConsoleLogger {
     if (!ConsoleLogger.instance) {
       ConsoleLogger.instance = new ConsoleLogger();
     }
 
-    return ConsoleLogger;
+    return ConsoleLogger.instance;
   }
 
   log(...args: any[]): void {
